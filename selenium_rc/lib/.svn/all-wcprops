@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Testing/SOHO/!svn/ver/284/DUTCtrl/SeleniumRC/branches/v1.0/selenium_rc/lib
+END
+selenium_operator.py
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Testing/SOHO/!svn/ver/330/DUTCtrl/SeleniumRC/branches/v1.0/selenium_rc/lib/selenium_operator.py
+END
+widget_constant.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Testing/SOHO/!svn/ver/328/DUTCtrl/SeleniumRC/branches/v1.0/selenium_rc/lib/widget_constant.py
+END
+config_constant.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Testing/SOHO/!svn/ver/284/DUTCtrl/SeleniumRC/branches/v1.0/selenium_rc/lib/config_constant.py
+END
+Auth_handler.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Testing/SOHO/!svn/ver/328/DUTCtrl/SeleniumRC/branches/v1.0/selenium_rc/lib/Auth_handler.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Testing/SOHO/!svn/ver/1/DUTCtrl/SeleniumRC/branches/v1.0/selenium_rc/lib/__init__.py
+END
+xpath_parser.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Testing/SOHO/!svn/ver/284/DUTCtrl/SeleniumRC/branches/v1.0/selenium_rc/lib/xpath_parser.py
+END
+my_ping.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Testing/SOHO/!svn/ver/328/DUTCtrl/SeleniumRC/branches/v1.0/selenium_rc/lib/my_ping.py
+END
+js2py.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Testing/SOHO/!svn/ver/284/DUTCtrl/SeleniumRC/branches/v1.0/selenium_rc/lib/js2py.py
+END

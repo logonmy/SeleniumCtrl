@@ -1,0 +1,41 @@
+webdriver：
+
+1、Frame间的切换需要先调用switch_to_default_content
+
+2、若实例webdriver报错可手动传入浏览器的profile尝试，方法如下：
+from selenium.webdriver import FirefoxProfile
+from selenium import webdriver
+fp = FirefoxProfile(r'C:\Documents and Settings\Administrator\Application Data\Mozilla\Firefox\Profiles\zkvz9gem.default')
+a = webdriver.Firefox(fp)
+
+3、send_keys前要先clear
+
+4、由于HTMLUnitDriver是Java写的，故若需要使用该Driver需要启动selenium-server-standalone-2.33.0.jar，然后按如下方式实例
+from selenium import webdriver
+driver = webdriver.Remote("http://localhost:4444/wd/hub", webdriver.DesiredCapabilities.HTMLUNIT)
+或
+driver = webdriver.Remote("http://localhost:4444/wd/hub", webdriver.DesiredCapabilities.HTMLUNITWITHJS)
+若需要以其他浏览器的profile进行实例，可如下调用
+driver = webdriver.Remote("http://localhost:4444/wd/hub", webdriver.DesiredCapabilities.HTMLUNITWITHJS, webdriver.firefox.firefox_profile.FirefoxProfile())
+
+5、获取控件内容element.get_attribute('value')
+
+6、获取url，driver.current_url
+
+7、点击radio、check_box、menu均用click，插件是否勾选用is_selected
+
+8、选择下拉框中的选项，用webdriver.find_element_by_xpath('//select[@name='xx']/option[@value="xx"]')
+
+9、弹出alert处理，使用switch_to_alert()
+
+10、不要使用find_element查找不存在的元素，使用find_elements，然后判断长度
+
+11、某些Firefox版本（14.0以上）在查找不存在的元素时会卡住
+
+12、使用手机浏览器登录：
+from selenium import webdriver
+profile = webdriver.FirefoxProfile()
+profile.set_preference("general.useragent.override","your_user_agent_string")
+profile.set_preference("general.platform.override","your_platform_string")
+driver=webdriver.Firefox(profile)
+

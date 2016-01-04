@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map>
+
+<router realm="MERCURY 300M Wireless N Router MW300R" class="TL_WR740N_v5" login_mode='basic'/>
+<router realm="TP-LINK Wireless Lite N Router WR741ND" class="TL_WR740N_v5" login_mode='basic'/>
+
+<router realm="TL-WR742N" class="TL_WR740N_v5" login_mode='cookie'/>
+
+
+</map>
